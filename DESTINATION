@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>city - surabaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.js"></script>
+    <style>
+
+        body {
+            background-color: rgb(36, 43, 40);
+        }
+
+        .navbar img {
+            width: 40px; 
+            height: auto; 
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card {
+          background-color: darkgray;
+          width: auto;
+          height: auto;
+          margin: 20px;
+        }
+
+        .card img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark mb-3" style="background-color:rgb(27, 36, 33)">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PROBOLINGGO CITY</a>
+
+                <div>
+                    <form class="d-flex me-auto">
+                        <a href="PROFILE.html" class="btn btn-outline-success me-2">Profile</a>
+                        <a href="FOOD.html" class="btn me-2 btn-sm btn-outline-secondary">Food</a>
+                        <a href="DESTINATION.html" class="btn btn-sm btn-outline-secondary">Destination</a>
+                    </form>
+                </div>
+
+                <a class="navbar-brand ms-auto" href="#">
+                    <img src="./img/Kota-Probolinggo.png" alt="Probolinggo" class="img-fluid">
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+              <div class="card mb-5" style="max-width: 540px;">
+                  <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="./img/bromo123.jpeg" class="img-fluid rounded-start" alt="./img/Kota-Probolinggo.png">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Gunung Bromo</h5>
+                              <p class="card-text">merupakan gunung berapi yang masih aktif dan memiliki pemandangan yang menakjubkan, dan merupakan ikon pariwisata Jawa Timur dan salah satu gunung berapi paling terkenal di dunia</p>
+                              <p class="card-text"><small class="text-body-secondary">Last updated 5 month ago</small></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-6">
+              <div class="card mb-5" style="max-width: 540px;">
+                  <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="./img/Madakaripura Forest Park.png" class="img-fluid rounded-start" alt="./img/Kota-Probolinggo.png">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title"> Madakaripura</h5>
+                              <p class="card-text">Adalah Air terjun yang dikenal sebagai salah satu yang tertinggi di Indonesia, dengan ketinggian sekitar 200 meter, dan memiliki keindahan yang luar biasa. Dikelilingi oleh tebing-tebing tinggi yang hampir membentuk lingkaran, Madakaripura memberikan kesan seperti berada di dalam gua terbuka, di mana air yang mengalir dari berbagai sisi menciptakan pemandangan yang memukau.</p>
+                              <p class="card-text"><small class="text-body-secondary">Last updated 5 month ago</small></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-6">
+              <div class="card mb-5" style="max-width: 540px;">
+                  <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="./img/Gili Ketapang123.jpg" class="img-fluid rounded-start" alt="./img/Kota-Probolinggo.png">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Gili Ketapang</h5>
+                              <p class="card-text">Adalah pulau kecil yang ada di Selat Madura, Daya tarik utama Gili Ketapang ada pada keindahan lautnya. Di sini wisatawan bisa melihat keindahan terumbu kerang hingga anemon laut dengan snorkeling maupun diving. </p>
+                              <p class="card-text"><small class="text-body-secondary">Last updated 5 month ago</small></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-6">
+              <div class="card mb-5" style="max-width: 540px;">
+                  <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="./img/Pantai Duta.png" class="img-fluid rounded-start" alt="./img/Kota-Probolinggo.png">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Pantai Duta</h5>
+                              <p class="card-text">Merupakan Pantai yang menawarkan pemandangan alam yang menenangkan dengan hamparan pasir yang luas dan deretan pohon cemara di sekitarnya, menciptakan suasana yang sejuk dan nyaman bagi pengunjung.</p>
+                              <p class="card-text"><small class="text-body-secondary">Last updated 5 month ago</small></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__columns">
+        <div class="footer__col">
+          <h3 class="footer__col-title">
+            <i data-feather="shopping-bag"></i> <span>Biodata</span></h3>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="" class="footer__nav-link">
+                  Narendra Rio Novendi
+                </a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="" class="footer__nav-link">
+                  24051214160 
+                </a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="" class="footer__nav-link">
+                  S1 Sistem Informasi
+                </a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="" class="footer__nav-link">
+                  <!--pp-->
+                </a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="" class="footer__nav-link">
+                  <!--pp-->
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">
+            <i data-feather="share-2"></i> <span>Social</span></h3>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="https://www.instagram.com/narendrariio/" class="footer__nav-link">
+                  <i data-feather="instagram"></i><span>@narendrariio</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">
+            <i data-feather="send"></i> <span>Contact</span></h3>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="mailto:24051214160@mhs.unesa.ac.id" class="footer__nav-link">
+                  24051214160@mhs.unesa.ac.id
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+        <div class="footer__copyrights">
+    </div>
+  </footer>
+    </div>
+</body>
+</html>
